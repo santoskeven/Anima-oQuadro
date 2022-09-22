@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-size: 10px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 35, 44, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    width: 30rem;
+    height: 30rem;
+    background-color: rgb(145 123 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: box1 linear infinite 10s;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.12), 0 2px 2px rgb(0, 0, 0, 0.12), 0 4px 4px rgb(0, 0, 0, 0.12), 
+    0 8px 8px rgb(0, 0, 0, 0.12), 0 16px 16px rgb(0, 0, 0, 0.12);
+}
+@keyframes box1{
+    0%{
+        transform: rotate(-360deg)
+    }
+}
+
+
+
+.box2{
+    width: 20rem;
+    height: 20rem;
+    background-color: #bcb3d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: box2 linear infinite 10s;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.12), 0 2px 2px rgb(0, 0, 0, 0.12), 0 4px 4px rgb(0, 0, 0, 0.12), 
+    0 8px 8px rgb(0, 0, 0, 0.12), 0 16px 16px rgb(0, 0, 0, 0.12);
+}
+@keyframes box2{
+    0%{
+        transform: rotate(-360deg)
+    }
+}
+
+.box3{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(255 175 104);
+    animation: box2 linear infinite 10s;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.12), 0 2px 2px rgb(0, 0, 0, 0.12), 0 4px 4px rgb(0, 0, 0, 0.12), 
+    0 8px 8px rgb(0, 0, 0, 0.12), 0 16px 16px rgb(0, 0, 0, 0.12);
+}
+@keyframes box3{
+    0%{
+        transform: rotate(-360deg)
+    }
+}
